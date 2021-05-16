@@ -1,0 +1,120 @@
+<html>
+    <head>
+        <title>DAYCARE ADMISSION FORM</title>
+    </head>
+    <body>
+        <h1 style="background-color:rgb(91, 200, 219);" align = "center">SMILY FACES DAYCARE CENTER</h1>
+        <h2 style="background-color:rgb(224, 140, 220);" align = "center">REGISTRATION FORM</h2>
+        <img src="./img/daycare1.jpg" alt="this is our daycare center" height='200' width='400'>
+        <img src="./img/daycare.jpg" alt="this is our daycare center" height='230' width='400'>
+        <img src="./img/daycare2.jpg" alt="this is our daycare center" height='200' width='400'>
+        <form>
+            <fieldset>
+                <legend><ins>Information of Child</ins></legend>
+                <label>First name:<input type="text" name="firstname"> </label>
+                <label>Middle name:<input type="text" name="middlename"> </label>
+                <label>Last name:<input type="text" name="lastname"> </label><br><br>
+                <label for ="start">Date of Birth:</label><br>
+                <input type="date" name="begin" placeholder= "dd-mm-yyyy" value="" min="2000-01-01" max="2021-01-04">
+            </fieldset><br>
+
+            <fieldset>
+                <legend><ins>Gender</ins></legend>
+                <label>Male<input type="radio" name="male"> </label>
+                <label>Female<input type="radio" name="female"> </label>
+                <label>Other<input type="radio" name="other"> </label>
+            </fieldset><br>
+
+            <fieldset>
+                <legend><ins>Child's School Information</ins></legend>
+                <label>School Name:<input type="text" name="schoolname"> </label>
+                <label>Contact Number:<input type="text" name="schollcontactnumber"> </label>
+                <label>School Email:<input type="email" name="schoolemail"> </label><br><br>
+                <label for="Standard">Standard</label>
+                <select name="Standard">
+                    <option value="Not in School">Not in School</option>
+                    <option value="Playgroup">Playgroup</option>
+                    <option value="Nursery">Nursery</option>
+                    <option value="Junior KG">Junior KG</option>
+                    <option value="senior KG">Senior KG</option>
+                    <option value="First">First</option>
+                    <option value="Second">Second</option>
+                    <option value="Third">Third</option>
+                    <option value="Fourth">Fourth</option>
+                    <option value="Fifth">Fifth</option>
+                </select><br><br>
+                <label>School Address: </label>
+                <textarea cols="70" rows="3" name="schooladdress" id="schooladdress"></textarea><br><br>
+                <label>Classteacher Name:<input type="text" name="classteachername"> </label>
+                <label>Contact Number of Classteacher:<input type="text" name="classteachercontactnumber"> </label><br><br>
+            </fieldset> <br>   
+        
+            <fieldset>
+                <legend><ins>Parent Gaurdian Information</ins></legend>
+                <h4><ins>First Parent/Guardian</ins></h4>
+                <label>Parent's Full Name:<input type="text" name="parentname"> </label>
+                <label>Relation with Child:<input type="text" name="1parentrelation"></label><br><br>
+                <label>Mobile Number:<input type="text" name="mobilenumber"> </label>
+                <label>Telephone Number:<input type="text" name="telephonenumber"> </label>
+                <label>Email:<input type="email" name="email"> </label><br><br>
+                <label>Residential Address: </label>
+                <textarea cols="70" rows="3" name="address" id="address"></textarea><br><br>
+                <label>Works at:<input type="text" name="worksat"> </label>
+                <label>Contact Number at Work:<input type="text" name="workcontactnumber"> </label><br><br>
+                <label>Work Address: </label>
+                <textarea cols="70" rows="3" name="address" id="address"></textarea>
+
+                <h4><ins>Second Parent/Guardian</ins></h4>
+                <label>Parent's Full Name:<input type="text" name="parentname"> </label>
+                <label>Relation with Child:<input type="text" name="2parentrelation"></label><br><br>
+                <label>Mobile Number:<input type="text" name="mobilenumber"> </label>
+                <label>Telephone Number:<input type="text" name="telephonenumber"> </label>
+                <label>Email:<input type="email" name="email"> </label><br><br>
+                <label>Residential Address: </label>
+                <textarea cols="70" rows="3" name="address" id="address"></textarea><br><br>
+                <label>Works at:<input type="text" name="worksat"> </label>
+                <label>Contact Number at Work:<input type="text" name="workcontactnumber"> </label><br><br>
+                <label>Work Address: </label>
+                <textarea cols="70" rows="3" name="address" id="address"></textarea>
+            </fieldset><br>
+            
+            <fieldset>
+                <legend><mark><ins>Emergency Contact Information</ins></mark></legend>
+                <label>Name:<input type="text" name="emergencyname"> </label>
+                <label>Relation with Child:<input type="text" name="emergencyrelation"></label><br><br>
+                <label>Phone Number:<input type="text" name="phonenumber"> </label>
+                <label>Email:<input type="email" name="email"> </label><br><br>
+                <label>Address: </label>
+                <textarea cols="70" rows="3" name="address" id="address"></textarea>
+            </fieldset><br>
+
+            <fieldset>
+                <legend><ins>Favorites of Child</ins></legend>
+                <h4>Favorite Games</h4>
+                <label>Cricket<input type="checkbox" name="game" value="cricket"> </label>
+                <label>Hide and seek<input type="checkbox" name="game" value="hidenseek"> </label>
+                <label>Carrom<input type="checkbox" name="game" value="carrom"> </label>
+                <label>Soft Toys<input type="checkbox" name="game" value="softtoys"></label>
+                <h4>Favorite Food</h4>
+                <label>What food do baby like?:</label>
+                <textarea cols="40" rows="3" name="address" id="address"></textarea>
+            </fieldset><br>
+
+            <fieldset>
+                <legend><ins>Medical Information</ins></legend>
+                <label>Any Health Problems?:<input type="text" name="universityname"> </label>
+                <label>If Any Medications, Specify with their time:<input type="text" name="collegename"> </label><br>  
+            </fieldset><br>
+
+            <fieldset>
+                <legend><mark><ins>About Your Child</ins></mark></legend>
+                <h4>Here you can specify something about your child...</h4>
+                <label>Tell us about your Child: </label>
+                <textarea cols="70" rows="3" name="address" id="address"></textarea>
+            </fieldset><br>
+            <center><img src="./img/thanks.jpg" alt="thank you!!" height='150' width='200'><br><br></center>
+            <center><input type="submit" name="SUBMIT"> <input type="reset" name="RESET"></center>
+            <h4>form created by SAKSHI RAVINDRA SALUNKHE.</h4>
+        </form>
+    </body>
+</html>
